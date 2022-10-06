@@ -1,0 +1,45 @@
+:root {
+    --dark-color: #19283f;
+    --green: #33d1cc;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/* Start Navbar */
+.navbar {
+    background-color: var(--dark-color);
+    color: white;
+}
+
+.navbar .container {
+    color: white
+}
+
+.navbar .nav-item .nav-link{
+    color: white;   
+}
+
+.navbar .nav-item .nav-link.active,
+.navbar .nav-item .nav-link:hover,
+.navbar .nav-item .nav-link:focus{
+    color: var(--green);
+}
+
+.navbar .search {
+    border-left: 1px solid var(--green);
+    color:  var(--green);
+    cursor: pointer;
+}
+
+.navbar .btn {
+    width: 5rem;
+    background-color: #19283f;
+    border: 2px solid var(--green);
+}
+
+.navbar .btn:hover {
+    background-color: var(--green);
+    color: var(--dark-color);
+}
+
+/* End Navbar */
