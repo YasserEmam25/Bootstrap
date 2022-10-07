@@ -1,10 +1,23 @@
 :root {
     --dark-color: #19283f;
     --green: #33d1cc;
+    --red: #ff3150;
+    --yellow: #ffc400;
 }
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+.main-btn {
+    background-color: var(--red);
+}
+
+.main-btn:hover {
+    background-color: var(--red);
+    color: var(--yellow);
+    border: 1px solid var(--yellow);
+}
+
 /* Start Navbar */
 .navbar {
     background-color: var(--dark-color);
@@ -31,15 +44,33 @@ body {
     cursor: pointer;
 }
 
-.navbar .btn {
+/* .navbar .btn {
     width: 5rem;
     background-color: #19283f;
     border: 2px solid var(--green);
-}
+} */
 
-.navbar .btn:hover {
+/* .navbar .btn:hover {
     background-color: var(--green);
     color: var(--dark-color);
-}
+} */
 
 /* End Navbar */
+/* Start Landing */
+.landing {
+    background-color: var(--dark-color);
+    color: white;
+    height: calc(100vh - 56px);
+}
+
+.landing .text-center {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* End Landing */
