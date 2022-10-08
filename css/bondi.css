@@ -74,3 +74,45 @@ body {
 }
 
 /* End Landing */
+/* Start Features */
+
+.features {
+    height: calc(100vh - 56px);
+    width: 100%;
+}
+
+.main-title::after {
+    content: "";
+    background-color: var(--green);
+    width: 300px;
+    height: 2px;
+    position: absolute;
+    transform: translateX(-150px);
+}
+
+.features .row .number {
+    top: -30%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.1;
+    font-size: 250px;
+    z-index: -1;
+}
+
+.features .row .icon {
+    top: 5rem;
+    left: 50%;
+    font-size: 50px;
+    transform: translateX(-50%);
+    color: var(--green);
+    opacity: 0.6;
+}
+
+.features .row .content{
+    padding-top: 150px;
+}
+
+.features .row .content h3 {
+    color: var(--yellow);
+}
+/* End Features */
