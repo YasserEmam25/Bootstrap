@@ -3,6 +3,7 @@
     --green: #33d1cc;
     --red: #ff3150;
     --yellow: #ffc400;
+    --section-color: #eff7fa;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -116,3 +117,63 @@ body {
     color: var(--yellow);
 }
 /* End Features */
+/* Start OurWork */
+.our-work {
+    height: calc(100vh - 56px);
+    width: 100%;
+    background-color: var(--section-color);
+}
+
+.our-work ul .active {
+    background-color: var(--red);
+    color: var(--yellow);
+}
+
+.our-work ul li {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.our-work ul li:hover {
+    color: var(--yellow);
+}
+
+.our-work .box {
+    padding: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.our-work .box::before{
+    content: attr(data-work);
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    background-color: #33d1cca7;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--section-color);
+    font-weight: bold;
+    transition: 0.3s ease-out;
+    transform: translateX(calc(-100% - 5px));
+}
+
+.our-work .box:hover::before{
+    transform: translateX(0);
+}
+
+@media only screen and (max-width: 991px) {
+    .our-work {
+      margin-top: 450px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .our-work {
+      margin-top: 800px;
+    }
+}
+
+
+/* End OurWork */
