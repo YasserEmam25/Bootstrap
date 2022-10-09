@@ -191,3 +191,23 @@ body {
     
 }
 /* End Stuff */
+/* Start Team */
+.team {
+    background-color: var(--section-color);
+}
+
+.team h3 {
+    color: var(--yellow);
+    font-weight: bold;
+}
+
+.team .box h4{
+    color: white;
+    background-color: var(--green);
+    font-weight: bold;
+}
+
+.team .box p {
+
+}
+/* End Team */
