@@ -119,9 +119,9 @@ body {
 /* End Features */
 /* Start OurWork */
 .our-work {
-    height: calc(100vh - 56px);
     width: 100%;
     background-color: var(--section-color);
+    /* margin-bottom: 300px; */
 }
 
 .our-work ul .active {
@@ -174,6 +174,20 @@ body {
       margin-top: 800px;
     }
 }
-
-
 /* End OurWork */
+/* Start Stuff */
+.stuff .description {
+    max-width: 600px;
+}
+
+.stuff .row .description,
+.stuff .row h3,
+.stuff .row a {
+    align-self: left;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 992px) {
+    
+}
+/* End Stuff */
