@@ -214,3 +214,37 @@ body {
     /* color: white; */
 }
 /* End Project */
+/* Start Subscribtion */
+.subscribe {
+    background-color: var(--yellow);
+}
+
+.subscribe.container h4 {
+    color: var(--dark-color);
+}
+
+.subscribe-btn {
+    background-color: var(--dark-color);
+    color: var(--section-color);
+    border: 1px solid var(--dark-color);
+}
+
+.subscribe-btn:hover {
+    background-color: var(--dark-color);
+    color: var(--section-color);
+    border: 1px solid var(--section-color);
+}
+
+.subscribe input[type="text"] {
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.subscribe input[type="text"]:focus {
+    outline: none;
+}
+
+.subscribe input[type="text"]::placeholder {
+    color: white;
+}
+/* End Subscribtion */
