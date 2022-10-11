@@ -248,3 +248,8 @@ body {
     color: white;
 }
 /* End Subscribtion */
+/* Start Footer*/
+.footer {
+    background-color: var(--dark-color);
+}
+/* End Footer*/
