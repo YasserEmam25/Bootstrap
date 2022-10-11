@@ -206,8 +206,11 @@ body {
     background-color: var(--green);
     font-weight: bold;
 }
-
-.team .box p {
-
-}
 /* End Team */
+/* Start Project */
+
+.project {
+    background-color: var(--dark-color);
+    /* color: white; */
+}
+/* End Project */
